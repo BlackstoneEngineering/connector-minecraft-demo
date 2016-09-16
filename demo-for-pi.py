@@ -1,4 +1,3 @@
-#from mc import *
 from mcpi.minecraft import Minecraft
 import mbed_connector_api as mdc 
 from base64 import standard_b64decode as b64decode
@@ -29,7 +28,7 @@ e = x.putResourceSubscription(ep,buttonID)
 while not e.isDone():
 	None
 if e.error:
-	mc.postToChat("ERROR in subscribing to Resource: ",e.error.errType, e.error.error)
+	mc.postToChat("ERROR in subscribing to Resource: "+ e.error.errType + error.error)
 else:
 	mc.postToChat("Subscribed Sucessfully!")
 
