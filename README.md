@@ -10,6 +10,7 @@ It demonstrates how to use mbed client on the embedded side and the python REST 
 
 # How do I use this?
 You have to run 2 pieces of code: 
+
 1. *Embedded code*: runs on an embedded device that can use an IP connection  (Ethernet / Wifi / Cellular) and relays when a button is pressed to connector.
 2. *Python Script*: This runs on the computer that is running the minecraft game server. It talks to both the minecraft server and to connector via the [mbed-connector-api-python](https://github.com/armmbed/mbed-connector-api-python). This script interprets the button presses and generates the items in minecraft. Run `python demo-for-pi.py` on Raspberry Pi or `python demo-for-windows.py` on windows machines to use the scripts. 
 
