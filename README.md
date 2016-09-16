@@ -24,6 +24,11 @@ The Python script requires two pieces of information.
 
 Once you have both the embedded code running, turn on the minecraft server (run `minecraft.exe`), then run the python script. Now when you press a button on the board it should cause a piece of diamond ore to show up in front of your avatar in game. 
 
+# Troubleshooting
+Common issues are as follows
+* subscribe404 - usually means your enpoint device is not turned on. Make sure to setup an endpoint and turn it on. Then make sure that the python script has that endpoints name and the accounts API key. Try restarting the device if all else fails. 
+* 
+
 # Liscense
 Apache 2.0
 
