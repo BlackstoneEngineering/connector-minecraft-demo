@@ -7,6 +7,7 @@ It demonstrates how to use mbed client on the embedded side and the python REST 
 # Pre-requisites
 1. Python 2.7.9+ installed on your computer
 2. Raspberry Pi with Raspbian (has minecraft installed by default), or windows machine with minecraft and [appropriate mods and python extensions installed](http://www.instructables.com/id/Python-coding-for-Minecraft/) (Forge + RaspberryJam mod)
+3. [`mbed-connector-api-python`](https://github.com/armmbed/mbed-connector-api-python) package installed on your machine. Run `pip install mbed-connector-api` from the command line to install.  
 
 # How do I use this?
 You have to run 2 pieces of code: 
